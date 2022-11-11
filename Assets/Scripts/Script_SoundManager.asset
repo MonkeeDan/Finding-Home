@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Script_SoundManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-333.1892,"y":-285.8087},"zoom":1.0,"elements":[{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"PlaySound","$type":"System.String"}},"position":{"x":-644.0,"y":-113.0},"guid":"46d9e507-15c5-46fc-892a-d9d44797c793","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"JumpSound","$type":"System.String"},"object":null},"position":{"x":-74.0,"y":-397.0},"guid":"9a0b67e7-ee87-424d-ad5f-82d108d66069","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"chainable":false,"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":124.0,"y":-536.0},"guid":"eaaa22a5-95f5-46a8-8bdb-7bffbb90bf28","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"ignoreCase":false,"options":["Jump","FootSteps"],"defaultValues":{},"position":{"x":-302.0,"y":-127.0},"guid":"8975ef89-965a-4563-92da-57a7a827974a","$version":"A","$type":"Unity.VisualScripting.SwitchOnString","$id":"16"},{"defaultValues":{},"position":{"x":-124.0,"y":-494.0},"guid":"708494b5-13cd-4013-8f90-efa1d95abcf6","$version":"A","$type":"Unity.VisualScripting.Community.FlowReroute","$id":"19"},{"sourceUnit":{"$ref":"16"},"sourceKey":"%Jump","destinationUnit":{"$ref":"19"},"destinationKey":"in","guid":"80706bb5-358a-4676-af61-a53599b25965","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"out","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"e251677a-a2c0-44ab-a007-5f8255803f55","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"f9c9ba16-0f70-482c-a9d1-0773aeafe954","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"e9041e51-21de-4f60-9eb2-1855e5011493","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"argument_0","destinationUnit":{"$ref":"16"},"destinationKey":"selector","guid":"98170fc2-f59f-4d39-9def-c9c9fb5e397d","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
