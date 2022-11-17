@@ -263,7 +263,18 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 12}
+        - {x: 16, y: 12}
+        - {x: 16, y: -16}
+      - - {x: -16, y: 14}
+        - {x: -12, y: 16}
+        - {x: -12, y: 12}
+      - - {x: 12, y: 12}
+        - {x: 12, y: 16}
+        - {x: 14, y: 15}
+        - {x: 16, y: 14}
       tessellationDetail: 0
       bones: []
       spriteID: b3f7ec2d7f5eefc438cc77eeafdf8994
@@ -620,7 +631,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -32, y: -16}
+        - {x: -32, y: 13}
+        - {x: 5, y: -5}
+        - {x: 29, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: d81c886cff5f6b1478be94b83eb82535
@@ -641,7 +656,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -28, y: -16}
+        - {x: 1, y: -2}
+        - {x: 32, y: 14}
+        - {x: 32, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 3f97ca67893d5cc4c8f1af954f51a36e
@@ -662,7 +681,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 12}
+        - {x: -3, y: -1}
+        - {x: 13, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 1e336bec55ec5b741a2c02d18e66c3c8
@@ -683,7 +706,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -14, y: -16}
+        - {x: 1, y: -1}
+        - {x: 16, y: 12}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 74c42f4276ff1144b9234aefb1a3fb66
@@ -829,11 +856,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tileset clustered_21: -589939178
+      Tileset clustered_39: 1386678124
       Tileset clustered_17: 483307730
       Tileset clustered_8: -1482232049
-      Tileset clustered_3: 494995333
-      Tileset clustered_15: 1789049169
+      Tileset clustered_33: -2039738768
+      Tileset clustered_32: 1837138125
       Tileset clustered_28: 1534005173
       Tileset clustered_34: -102800725
       Tileset clustered_16: -607383284
@@ -865,10 +892,10 @@ TextureImporter:
       Tileset clustered_6: 1159578174
       Tileset clustered_5: 467607683
       Tileset clustered_18: 1670682928
+      Tileset clustered_21: -589939178
       Tileset clustered_36: -1987517902
-      Tileset clustered_39: 1386678124
-      Tileset clustered_33: -2039738768
-      Tileset clustered_32: 1837138125
+      Tileset clustered_3: 494995333
+      Tileset clustered_15: 1789049169
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
