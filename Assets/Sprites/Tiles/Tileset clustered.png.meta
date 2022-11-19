@@ -634,7 +634,9 @@ TextureImporter:
       physicsShape:
       - - {x: -32, y: -16}
         - {x: -32, y: 13}
-        - {x: 5, y: -5}
+        - {x: -29, y: 13}
+        - {x: -15, y: 6}
+        - {x: 23, y: -13}
         - {x: 29, y: -16}
       tessellationDetail: 0
       bones: []
@@ -891,9 +893,9 @@ TextureImporter:
       Tileset clustered_7: -2004317651
       Tileset clustered_6: 1159578174
       Tileset clustered_5: 467607683
-      Tileset clustered_18: 1670682928
       Tileset clustered_21: -589939178
       Tileset clustered_36: -1987517902
+      Tileset clustered_18: 1670682928
       Tileset clustered_3: 494995333
       Tileset clustered_15: 1789049169
   spritePackingTag: 
